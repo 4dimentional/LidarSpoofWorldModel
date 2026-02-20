@@ -1,6 +1,6 @@
 # TurtleBot3 + ROS2 Humble Setup and PULSER Research Framework
 
-This document provides:
+This repository contains: 
 
 1. Complete setup and runtime instructions for TurtleBot3 using ROS2 Humble, `slam_toolbox`, and Nav2  
 2. A structured overview of the PULSER LiDAR spoofing research framework for evaluating SLAM robustness  
