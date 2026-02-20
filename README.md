@@ -92,6 +92,8 @@ ros2 run rviz2 rviz2
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
+**Important Note**: Do not run Teleoperation while Nav2 is active. This will create conflicting command publishers to ```/cmd_vel```.
+
 
 At this point the robot can:
 
