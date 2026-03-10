@@ -1,1 +1,2 @@
 turtlebot3.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.db3 filter=lfs diff=lfs merge=lfs -text
