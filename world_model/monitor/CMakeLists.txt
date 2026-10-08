@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.8)
+project(scan_provenance)
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+add_executable(scan_provenance main.cpp)
+ament_target_dependencies(scan_provenance rclcpp sensor_msgs std_msgs)

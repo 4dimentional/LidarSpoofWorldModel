@@ -1,0 +1,15 @@
+/scan:
+  history: keep_last
+  depth: 20
+  reliability: reliable
+  durability: volatile
+/tf_static:
+  history: keep_last
+  depth: 10
+  reliability: reliable
+  durability: transient_local
+/scan_slam:
+  history: keep_last
+  depth: 50
+  reliability: best_effort
+  durability: volatile

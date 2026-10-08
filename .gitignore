@@ -1,1 +1,12 @@
 .DS_Store
+
+# Extracted Docker image layers
+/simulation/
+
+# World-model data, raw bags, and checkpoints are large/regenerable
+/world_model/data/processed/
+/world_model/data/raw/
+/world_model/checkpoints/
+
+# Python caches
+__pycache__/

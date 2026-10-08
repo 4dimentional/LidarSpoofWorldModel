@@ -1,0 +1,16 @@
+{
+  "train": [
+    "data/processed/pilot_v3_train_00/observations.npz",
+    "data/processed/pilot_v3_train_01/observations.npz",
+    "data/processed/pilot_v3_train_02/observations.npz"
+  ],
+  "validation": [
+    "data/processed/pilot_v3_validation_03/observations.npz"
+  ],
+  "test": [
+    "data/processed/pilot_v3_test_04/observations.npz"
+  ],
+  "attack_test": [
+    "data/processed/pilot_v3_attack_test_04/observations.npz"
+  ]
+}
